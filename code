@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inazuma Eleven Team Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inazuma Eleven Team Builder</h1>
+    </header>
+
+    <main>
+        <div id="playerList">
+            <h2>Choisissez vos joueurs :</h2>
+            <div class="player" data-player="Shun Kazami">
+                <img src="https://example.com/shun_kazami.jpg" alt="Shun Kazami">
+                <p>Shun Kazami</p>
+                <button class="addPlayer">Ajouter à l'équipe</button>
+            </div>
+            <div class="player" data-player="Mark Evans">
+                <img src="https://example.com/mark_evans.jpg" alt="Mark Evans">
+                <p>Mark Evans</p>
+                <button class="addPlayer">Ajouter à l'équipe</button>
+            </div>
+            <!-- Ajoute d'autres joueurs si tu le souhaites -->
+        </div>
+
+        <div id="team">
+            <h2>Votre équipe :</h2>
+            <ul id="teamList">
+                <!-- Liste des joueurs ajoutés -->
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Inazuma Eleven Team Builder</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
